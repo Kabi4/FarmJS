@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const tempOverview = fs.readFileSync(`${__dirname}/templates/Template-Overview.html`,"utf-8");
 const tempCard = fs.readFileSync(`${__dirname}/templates/Template-Card.html`,"utf-8");
-const tempProduct = fs.readFileSync(`${__dirname}/templates/Template-Product.html`,"utf-8"); 
+const tempProduct = fs.readFileSync(`${__dirname}/templates/Template-Product.html`,"utf-8");  
 
 const fileData = fs.readFileSync(`${__dirname}/dev-data/data.json`,"utf-8");
 const data = JSON.parse(fileData);
